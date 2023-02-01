@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/gallery.css">
+</head>
+<body>
+    <main class="gallery_main">
+     
+         <h1 class="heading"> <i> Hi User,  My Self Gallery </i> </h1>
+    
+    <div class="gallery">
+        <div class="gallery_item" id="one">
+            <img src="https://cdn.pixabay.com/photo/2020/01/14/17/55/dog-4765784_960_720.jpg" alt="image-1">
+        </div>
+        <div class="gallery_item" id="two">
+            <img src="https://cdn.pixabay.com/photo/2020/01/14/17/55/dog-4765784_960_720.jpg" alt="image-2">
+        </div>
+        <div class="gallery_item" id="three">
+            <img src="https://cdn.pixabay.com/photo/2020/01/14/17/55/dog-4765784_960_720.jpg" alt="image-3">
+        </div>
+        <div class="gallery_item" id="four">
+             <img src="https://cdn.pixabay.com/photo/2020/01/14/17/55/dog-4765784_960_720.jpg" alt="image-4">
+        </div>
+    </div>
+     <br>
+   
+    <p>*************************************************</p>
+    </main>
+    <p id="info"></p>
+ 
+    <!-- form ********************************************* -->
+  <main class="form_place hide">
+    <h1>Register Your Self</h1>
+<fieldset>
+   <form action="" id="display_form">
+    <br>
+      <label for="name">Name </label> 
+      <input type="text" required id="name" name="name" placeholder="Enter Your Name">
+         <br> <br>
+      <label for="name">E-Mail :</label>
+      <input type="email" required id="email" name="email" placeholder="Enter Your E-Mail">
+        <br> <br>
+      <label for="name">User Name :</label>
+      <input type="text" id="username" required name="name" placeholder="Enter Your Username">
+      <br> <br>
+      <input id="submit" type="submit"> 
+     
+
+    </form>
+</fieldset>
+</main>
+
+<main class="dice hide">
+
+    <div class="imageDice">
+        <img class="Dice-Img" src="https://illustoon.com/photo/8064.png" alt="dice">
+    </div>
+    <h2>You have only 3 clicks</h2>
+    <div class="score">
+     score 1: <span class="score1"></span> <br>
+     score 2: <span class="score2"></span> <br>
+     score 3: <span class="score3"></span><br>
+     total score: <span class="totalscore"></span>
+     <button class=" continue ">continue</button>  
+     <input type="submit">  
+     <p class="comment"></p>       
+    </div>
+</main>
+
+<main class="coupon hide">
+
+    <div class="congrats">
+        <img src="https://www.shutterstock.com/image-vector/congrats-lettering-typography-drawn-art-260nw-1041737950.jpg" alt="congrats">
+    </div>
+
+    <h2> Your coupen code is </h2> <br>
+    <h3 class="entercode"></h3>
+</main>
+
+
+</body>
+<script src="/gallery.js"></script>
+</html>

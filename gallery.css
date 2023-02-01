@@ -1,0 +1,59 @@
+
+        
+       body{
+        background-color: rgb(136, 187, 170);
+       }
+        .heading {
+            /* background-color: yellow;
+            width: 350px;
+            margin-left: 400px;
+            margin-top: 50px;
+            */
+        
+            text-align: center;
+            padding-top: 50px;
+        }
+        .gallery{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            margin-top: 30px;
+           
+        }
+        
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+        }
+
+      .gallery_item {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+
+}
+
+p{ text-align: center;}
+
+
+/* form css ************************************************* */
+.hide {
+    display: none !important;
+}
+
+/* dice ********************************** */
+.imageDice{
+    width: 100px;
+    height: 100px;
+}
+
+.dice {
+margin: 50px;
+margin-top: 100px;
+margin-left: 250px;
+}
+.imageDice img {
+    width: 100px;
+    height: 100px;
+}
